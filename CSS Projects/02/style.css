@@ -1,0 +1,29 @@
+#container{
+    width:90vh;
+    margin:auto;
+    text-align: center;
+}
+.row{
+    margin:auto;
+    padding:1em;
+    width:100%;
+}
+.bg-grey{
+    background-color: #ececec;
+}
+.bg-aqua-0{
+    background-color: aqua;
+}
+.bg-aqua-1{
+    background-color: rgb(49, 202, 151);
+}
+.bg-aqua-2{
+    background-color: rgb(32, 176, 176);
+}
+.col{
+    width:30vh;
+}
+.flex{
+    display:flex;
+    gap:8px;
+}
