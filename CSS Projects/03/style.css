@@ -25,6 +25,11 @@ input[type=text]{
     margin:1em;
     width:450px;
 }
+input[type=text]:focus{
+    -webkit-box-shadow: 10px 10px 25px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px -11px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 25px -11px rgba(0,0,0,0.75);
+}
 footer{
     background-color: #f2f2f2;
     padding:1em;
