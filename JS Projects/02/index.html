@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-do List by @mehmetozgulnet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body class="bg-black">
+    <main class="container mt-5 rounded-">
+        <div class="row text-light">
+            <div class="col-6 offset-3 text-center pt-3 bg-primary">
+                <h1>Yapılacaklar Listesi</h1>
+                <p class="lead">by <a href="https://app.patika.dev/mehmetozgul" class="text-light">@mehmetozgulnet</a>
+                </p>
+            </div>
+        </div>
+        <div class="row text-light">
+            <div class="col-6 offset-3 text-center px-5 py-4 bg-dark" id="newTaskDiv">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Yeni görev ekle" aria-label="Yeni görev ekle"
+                        aria-describedby="button-addon2" id="addItemInput">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Ekle</button>
+                </div>
+            </div>
+        </div>
+        <div class="row text-light">
+            <div class="col-6 offset-3 text-center px-5 pb-5 bg-dark">
+                <ul class="list-group" id="tasksList">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        HTML - patika.dev
+                        <span class="badge rounded-pill"><button type="button" class="btn-close remove-item"></button></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        CSS - patika.dev
+                        <span class="badge rounded-pill"><button type="button" class="btn-close remove-item"></button></span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Bootstrap - patika.dev
+                        <span class="badge rounded-pill"><button type="button" class="btn-close remove-item"></button></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+            <div id="toast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                <strong class="me-auto">Uyarı</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body"></div>
+            </div>
+          </div>
+          
+    </main>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+        integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+</html>
