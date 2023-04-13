@@ -99,7 +99,7 @@ menu.forEach((a) => {
 });
 
 function changeMenu(item) {
-  if (cards.children().length) {
+  if (cards.children().length) {  
     cards.empty();
   }
   menu.forEach((a) => {
