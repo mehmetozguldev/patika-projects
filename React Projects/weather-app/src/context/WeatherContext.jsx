@@ -19,7 +19,7 @@ function WeatherProvider({ children }) {
         const getWeatherDataCity = async (cityName) => {
 
             try {
-                const { data } = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid=2528d5586a2a97c2aa35dca1b3023742`);
+                const { data } = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=44.34&lon=10.99&appid=?`);
                 setWeather(data);
             } catch (error) {
                 alert("Error: ", error);
