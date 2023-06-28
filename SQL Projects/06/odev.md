@@ -10,6 +10,6 @@
 
 ``SELECT MAX(length) FROM film WHERE rental_rate = 0.99;``
 
-## 3.
+## 4.
 
 ``SELECT DISTINCT COUNT(replacement_cost) FROM film WHERE length > 150;``
