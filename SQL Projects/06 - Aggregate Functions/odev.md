@@ -12,4 +12,4 @@
 
 ## 4.
 
-``SELECT DISTINCT COUNT(replacement_cost) FROM film WHERE length > 150;``
+``SELECT COUNT(DISTINCT replacement_cost) FROM film WHERE length > 150;``
